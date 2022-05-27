@@ -1,0 +1,131 @@
+.header{
+    border: 2PX solid blueviolet;
+}
+
+.header1{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.para{
+    color: gray;
+    font-size: 13px;
+ display: flex;
+ flex-wrap: nowrap;
+ gap: 20px;
+
+}
+
+.website{
+    color: gray;
+}
+
+.faq{
+    font-size: 13px;
+    color: gray;
+}
+
+
+/*LIST*/
+
+.header2{
+    display: flex;
+    justify-content: center;
+    gap: 50PX;
+    color: gray;
+    
+}
+
+.life-style p{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner{
+    background-color: gray;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 50vh;
+    color: lightgrey;
+    align-items: flex-end; 
+}
+
+.under{
+    display: flex;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.container1{
+    border: 1px solid blueviolet;
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+}
+
+.con-left{
+    flex-grow: 1;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    margin: 10px;
+    line-height: 30px;
+    background-color: rgb(209, 209, 209);
+    height: 110vh;
+}
+
+.con-left ul li{
+    list-style: none;
+    color: rgb(121, 114, 114);
+}
+
+.con-left h3{
+    font-size: 12px;
+    color: rgb(85, 82, 82);
+}
+
+.con-right{
+    display: flex;
+    flex-grow: 3;
+    flex-wrap: wrap;
+    width: 60%;
+    padding-left: 10px;
+   
+   
+}
+
+.ward{
+  /* background-color: gray; */
+  width: 28%;
+  margin: 5px;
+}
+
+.icon{
+    background-color: gray;
+      height: 35vh;
+}
+
+.box{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgb(146, 143, 143);
+}
+.btn1 h3{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    position: absolute;
+  
+}
+
+.con12{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1{
+    display: flex;
+}
