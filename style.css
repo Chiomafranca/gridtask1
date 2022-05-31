@@ -1,5 +1,12 @@
+ .wrapper{
+    overflow: hidden;
+     margin: 0 auto; 
+   
+} 
+
+
 .header{
-    border: 2PX solid blueviolet;
+ 
 }
 
 .header1{
@@ -11,9 +18,9 @@
 .para{
     color: gray;
     font-size: 13px;
- display: flex;
- flex-wrap: nowrap;
- gap: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
 
 }
 
@@ -61,7 +68,7 @@
 }
 
 .container1{
-    border: 1px solid blueviolet;
+
     min-height: 100vh;
     display: flex;
     width: 100%;
@@ -69,7 +76,7 @@
 
 .con-left{
     flex-grow: 1;
-    border: 1px solid blueviolet;
+
     padding: 10px;
     margin: 10px;
     line-height: 30px;
@@ -127,5 +134,221 @@
 }
 
 .btn1{
-    display: flex;
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+  
 }
+
+.btn1 p{
+ font-size: 12px;
+ padding: 8px;
+ background-color: gray;
+ width: 13%;
+ height: 10%;
+ text-align: center;
+}
+
+
+
+.between{
+    font-size: 13px;
+    color: gray;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.between{
+    font-size: 16px;
+}
+
+.between p{
+    color: rgb(44, 43, 43);
+    font-size: 10px;
+}
+
+.sec-section{
+  
+    display: flex;
+    justify-content: center;
+     width: 100vw;
+    justify-content: space-around;
+    height: 50vh;
+  
+}
+
+  .card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-gap: 20px;
+    height: 80vh;
+    width: 80vw;
+}
+
+.four-square{
+ 
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+}
+
+.cir{
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+    border-radius: 100px;
+    margin-bottom: -100px;
+    position: absolute;
+}
+  
+.circle-writeup{
+    background-color: lightgray;
+     font-size: 15px;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: -60;
+     color: gray;
+}
+ .circle-writeup a{
+     color: gray;
+ }
+
+.square{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 10px;
+}
+
+.one{
+    background-color: gray;
+}
+.two{
+    background-color: gray;
+}
+.three{
+    background-color: gray;
+}
+.four{
+    background-color: gray;
+}
+
+
+
+
+.trip-header{
+    text-align: center;
+    color: gray;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.section1{
+    width: 35vw;
+    margin: 15px;
+}
+
+.flex{
+  display: flex;
+  width: 30vw;
+  gap: 20px;
+}
+
+.flex p{
+   display: flex;
+   margin: 1.20rem;
+
+}
+
+.read{
+    background-color: gray;
+    display: flex;
+    position: absolute;
+    padding: 2.2rem;
+    border-radius: 100px;
+} 
+
+
+.down-write{
+     background-color: rgb(219, 216, 216);
+     height: 45vh; 
+     display: flex;  
+}
+
+
+.ps{
+    /* width: 20vw; */
+    padding: 10px;
+    position: relative;
+    top:11rem;
+    color: gray;
+}
+
+.ps a{
+    font-size: 10px;
+    color: #000;
+}
+
+
+.down-write1{
+    display: flex;
+    background-color: rgb(219, 216, 216);
+    height: 30vh; 
+    display: flex; 
+}
+
+
+.ps{
+    /* width: 20vw; */
+    padding: 10px;
+    position: relative;
+    top:5rem;
+    color: gray;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    font-size: 20px;
+    background-color: lightgray;
+  
+}
+
+.btn h5{
+    font-size: 20px;
+    color: rgb(75, 69, 69);
+}
+
+.btn h6{
+    width: 20%;
+   
+    padding: 3px;
+    font-size: 12px;
+    color: rgb(75, 69, 69);
+    background-color: rgb(192, 189, 189);
+
+    height: 3vh;
+}
+
+.btn p{
+    font-size: 14px;
+    line-height: 2rem;
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+    color: rgb(68, 65, 65);
+    background-color: rgb(197, 197, 197);
+}
+
+
